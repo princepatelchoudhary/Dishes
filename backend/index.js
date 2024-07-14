@@ -17,7 +17,7 @@ app.use(express.json());
 //import routes for  API
 const FoodRoutes = require("./routes/Food.js");
 
-//mount the todo API routes
+//mount the API routes
 app.use("/api/v1", FoodRoutes);
 
 //connect to the database
